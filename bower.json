@@ -1,0 +1,21 @@
+{
+  "name": "starter-kit",
+  "version": "1.10.0",
+  "homepage": "https://github.com/emberjs/starter-kit",
+  "authors": [
+    "Karen Tanigawa <tanigawa.karen@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember-data": "~0.0.14",
+    "ember": "~1.10.0",
+    "handlebars": ">= 1.0.0 < 2.0"
+  }
+}
