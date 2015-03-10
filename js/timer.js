@@ -1,15 +1,11 @@
 var App = Ember.Application.create();
 
-// setInterval(function() {
-//   var viewed = App.get('secondsViewed');
-//   App.set('secondsViewed', viewed + 1);
-// }, 1000);
 
-// App.IndexRoute = Ember.Route.extend({
-//   model: function() {
-//     return ['red', 'yellow', 'blue'];
-//   }
-// });
+App.IndexRoute = Ember.Route.extend({
+  model: function() {
+    return ['red', 'yellow', 'blue'];
+  }
+});
 
 // Class
 App.ApplicationRoute = Ember.Route.extend({
