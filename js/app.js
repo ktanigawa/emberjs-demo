@@ -1,4 +1,4 @@
-var App = Ember.Application.create();
+this.App = Ember.Application.create();
 
 App.ApplicationController = Ember.Controller.extend({
   age: 27,

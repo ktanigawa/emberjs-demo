@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/emberjs/starter-kit/issues"
   },
-  "homepage": "https://github.com/emberjs/starter-kit"
+  "homepage": "https://github.com/emberjs/starter-kit",
+  "dependencies": {
+    "ember-handlebars": "^1.2.0"
+  }
 }
