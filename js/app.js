@@ -23,7 +23,13 @@ App.ApplicationController = Ember.Controller.extend({
     stop_timer: function(){
       clearInterval(this.interval);
     }
-  }
+  },
+
+  people: [
+    "John Smith",
+    "Kathy Johnson",
+    "Chelsea Jolley"
+  ]
 });
 
 // Route
