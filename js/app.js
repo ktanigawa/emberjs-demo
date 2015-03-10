@@ -1,17 +1,20 @@
 var App = Ember.Application.create();
 
-// setInterval(function() {
-//   var viewed = App.get('secondsViewed');
-//   App.set('secondsViewed', viewed + 1);
-// }, 1000);
 
-// App.IndexRoute = Ember.Route.extend({
-//   model: function() {
-//     return ['red', 'yellow', 'blue'];
-//   }
-// });
+// Action when clicked
+App.ApplicationController = Ember.Controller.extend({
+  age: 36,
+  actions: {
+    older: function(){
+      this.incrementProperty('age');
+    },
+    younger: function(){
+      this.decrementProperty('age');
+    }
+  }
+});
 
-// Class
+// Timer
 App.ApplicationRoute = Ember.Route.extend({
   model: function() {
     return {
