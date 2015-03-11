@@ -17,6 +17,7 @@
     "ember-data": "~0.0.14",
     "ember": "~1.10.0",
     "handlebars": ">= 1.0.0 < 2.0",
-    "interact": "~1.2.4"
+    "interact": "~1.2.4",
+    "semantic-ui": "~1.11.4"
   }
 }
