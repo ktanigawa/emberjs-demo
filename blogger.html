@@ -5,30 +5,19 @@
   <title>Ember Starter Kit</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <script>
+    EmberHandlebarsLoader.loadTemplates(['posts', 'about', 'contact']);
+  </script>
+  
   <script src="js/libs/jquery-1.10.2.js"></script>
   <script src="js/libs/handlebars-v1.3.0.js"></script>
   <script src="js/libs/ember.js"></script>
   <script src="js/libs/ember-data.js"></script>
   <script src="js/libs/ember-template-compiler-1.10.0.js"></script>
   <script src="js/libs/ember-1.10.0.debug.js"></script>
-  <script src="js/libs/ember-handlebars-loader-0.0.2.js"></script>
-</head>
-<body>
-  <header>
-    <h2>Ember JS • </br>Semantic UI • </br>Interact JS</h2>
-    <hr/>
-  </header>
-
-  <script>
-    EmberHandlebarsLoader.loadTemplates([
-      'posts', 'about', 'contact', 'phone', 'email', 'application'
-    ]);
-  </script>
-
-  <footer>
-    <p>&copy; demo by k t</p>
-  </footer>
-
   <script src="js/blogger.js"></script>
   <script src="js/router.js"></script>
 </body>

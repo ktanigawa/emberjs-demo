@@ -31,8 +31,3 @@ App.ApplicationController = Ember.Controller.extend({
     "Chelsea Jolley"
   ]
 });
-
-// Route
-App.ApplicationRoute = Ember.Route.extend({
-
-});
