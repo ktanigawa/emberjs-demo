@@ -17,6 +17,15 @@ footer{
   bottom: 20px;
 }
 
+ul.header_nav li{
+  display: inline-block;
+}
+
+span{
+  color: #777;
+  font-size: 25px;
+}
+
 a{
   color: #777;
   text-decoration: none;
